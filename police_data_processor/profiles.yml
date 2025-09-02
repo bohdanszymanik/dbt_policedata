@@ -1,0 +1,9 @@
+police_data_processor: 
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: './police_vbs.duckdb'
+      extensions:
+        - parquet
+      settings:
